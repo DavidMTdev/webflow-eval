@@ -18,12 +18,58 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js" async></script>
+
 </head>
 
 <body>
+    <div class="nav--responsive">
+        <div class="header-logo">
+            <img src="./assets/img/logos/webflow.png" alt="webflow">
+        </div>
+        <div class="header-category">
+            <p>
+                Automobile
+                <span>
+                    — Voitures de collection
+                </span>
+            </p>
+        </div>
+        <div class="header-social--link">
+            <ul>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/icons/facebook-blue.svg" alt="facebook icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/icons/twitter-blue.svg" alt="twitter icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/icons/phone-chat.svg" alt="phone chat icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/icons/envelop.svg" alt="envelop icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/icons/tag.svg" alt="tag icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
     <!-- header -->
     <header class="header-main" id="mainHeader">
         <!-- left part -->
@@ -79,6 +125,10 @@
             </div>
         </div>
 
+        <div class="header-nav--wrapper">
+            <div class="header-nav-burger"></div>
+        </div>
+
     </header>
 
     <main class="page-article">
@@ -99,14 +149,16 @@
             </div>
             <div class="single-subtitle">
                 <p>
-                    S'offrir une Jaguar Type E demeure encore aujourd'hui le rêve de très nombreux passionnés d'automobile ancienne.
+                    S'offrir une Jaguar Type E demeure encore aujourd'hui le rêve de très nombreux passionnés
+                    d'automobile ancienne.
                 </p>
             </div>
         </div>
         <!-- meta single -->
         <div class="article-meta">
             <div class="meta-author">
-                <div class="author-thumb" style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');">
+                <div class="author-thumb"
+                    style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');">
                 </div>
                 <p>
                     Un article de <span>Francis Lamatic</span>
@@ -159,18 +211,20 @@
             <div class="article-head">
                 <div class="article-date">
                     <span class="day">
-                                Lun.
-                            </span>
+                        Lun.
+                    </span>
                     <span class="day-number">
-                                06
-                            </span>
+                        06
+                    </span>
                     <span class="month">
-                                Oct.
-                            </span>
+                        Oct.
+                    </span>
                 </div>
                 <div class="article-title--hat">
                     <h2>
-                        Une introduction d’article doit être plus mise en avant que le texte courant. La Jag arbore des galbes anglo-italiens charmeurs et sensuels. Même si la ligne manque un peu d'homogénéité. Non sans une certaine parenté avec le grand frère F Pace et aussi
+                        Une introduction d’article doit être plus mise en avant que le texte courant. La Jag arbore des
+                        galbes anglo-italiens charmeurs et sensuels. Même si la ligne manque un peu d'homogénéité. Non
+                        sans une certaine parenté avec le grand frère F Pace et aussi
                         l'Alfa Romeo Stelvio.
                     </h2>
                 </div>
@@ -180,8 +234,12 @@
                     Titre de troisième classe, dit H3
                 </h2>
                 <p>
-                    Non sans une certaine parenté avec le grand frère <em>F Pace</em> et aussi <em>l'Alfa Romeo Stelvio</em>. Des phares plus ronds à l'ancienne, comme sur feu la <em>S-Type</em> et des feux arrière moins géométriques lui auraient donné
-                    plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer la puissance, dans des dimensions aussi réduites (4,41 mètres de long).
+                    Non sans une certaine parenté avec le grand frère <em>F Pace</em> et aussi <em>l'Alfa Romeo
+                        Stelvio</em>. Des phares plus ronds à l'ancienne, comme sur feu la <em>S-Type</em> et des feux
+                    arrière moins géométriques lui auraient donné
+                    plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes,
+                    avec un long capot pour suggérer la puissance, dans des dimensions aussi réduites (4,41 mètres de
+                    long).
                 </p>
             </div>
             <div class="article-image">
@@ -192,12 +250,15 @@
             </div>
             <div class="article-paragraph">
                 <p>
-                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer la puissance.
+                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité
+                    et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot
+                    pour suggérer la puissance.
                 </p>
             </div>
             <div class="article-quote">
                 <p>
-                    “Il n'est guère facile de dessiner un "SUV " tout en courbes, avec un long capot pour suggérer la puissance, avec une contrainte de dimensions aussi réduites.“
+                    “Il n'est guère facile de dessiner un "SUV " tout en courbes, avec un long capot pour suggérer la
+                    puissance, avec une contrainte de dimensions aussi réduites.“
                 </p>
             </div>
             <div class="article-paragraph">
@@ -205,14 +266,20 @@
                     Titre de quatrième classe, dit H4
                 </h3>
                 <p>
-                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer
+                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques
+                    lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV
+                    " tout en courbes, avec un long capot pour suggérer
                     la puissance, dans des dimensions aussi réduites (4,41 mètres de long).
                 </p>
                 <p>
-                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer la puissance.
+                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité
+                    et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot
+                    pour suggérer la puissance.
                 </p>
                 <p>
-                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer
+                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques
+                    lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV
+                    " tout en courbes, avec un long capot pour suggérer
                     la puissance, dans des dimensions aussi réduites (4,41 mètres de long).
                 </p>
             </div>
@@ -232,22 +299,28 @@
             </div>
             <div class="article-quote">
                 <p>
-                    “J’admets que des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe.“
+                    “J’admets que des feux arrière moins géométriques lui auraient donné plus d'originalité et de
+                    classe.“
                 </p>
             </div>
             <div class="article-paragraph">
                 <p>
-                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV " tout en courbes, avec un long capot pour suggérer
+                    Des phares plus ronds à l'ancienne, comme sur feu la S-Type et des feux arrière moins géométriques
+                    lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un " SUV
+                    " tout en courbes, avec un long capot pour suggérer
                     la puissance, dans des dimensions aussi réduites (4,41 mètres de long).
                 </p>
                 <p>
-                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité et de classe. Mais il n'est guère facile de dessiner un "SUV" tout en courbes, avec un long capot pour suggérer la puissance.
+                    Comme sur feu la S-Type et des feux arrière moins géométriques lui auraient donné plus d'originalité
+                    et de classe. Mais il n'est guère facile de dessiner un "SUV" tout en courbes, avec un long capot
+                    pour suggérer la puissance.
                 </p>
             </div>
             <!-- meta single -->
             <div class="article-meta article-footer">
                 <div class="meta-author">
-                    <div class="author-thumb" style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');">
+                    <div class="author-thumb"
+                        style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');">
                     </div>
                     <p>
                         Un article de <span>Francis Lamatic</span>
@@ -312,11 +385,14 @@
                     </h3>
                     <a href="">
                         Lire la suite
-                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="CTA-ARROW" transform="translate(-94.000000, -6.000000)" fill="#E74832">
                                     <g id="ARROW">
-                                        <path d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z"></path>
+                                        <path
+                                            d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z">
+                                        </path>
                                     </g>
                                 </g>
                             </g>
@@ -337,11 +413,14 @@
                     </h3>
                     <a href="">
                         Lire la suite
-                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="CTA-ARROW" transform="translate(-94.000000, -6.000000)" fill="#E74832">
                                     <g id="ARROW">
-                                        <path d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z"></path>
+                                        <path
+                                            d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z">
+                                        </path>
                                     </g>
                                 </g>
                             </g>
@@ -362,11 +441,14 @@
                     </h3>
                     <a href="">
                         Lire la suite
-                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg width="19px" height="5px" viewBox="0 0 19 5" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="CTA-ARROW" transform="translate(-94.000000, -6.000000)" fill="#E74832">
                                     <g id="ARROW">
-                                        <path d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z"></path>
+                                        <path
+                                            d="M109.68934,6 L112.724874,8.5 L109.68934,11 L109.689,8.999 L94,9 L94,8 L109.689,7.999 L109.68934,6 Z">
+                                        </path>
                                     </g>
                                 </g>
                             </g>
@@ -382,7 +464,8 @@
                     La newsletter Webflow
                 </h2>
                 <p>
-                    Retrouvez l’actualité qui compte pour vous toutes les semaines dans votre boîte mail. Sans spam, sauf pour nos ventes privées !
+                    Retrouvez l’actualité qui compte pour vous toutes les semaines dans votre boîte mail. Sans spam,
+                    sauf pour nos ventes privées !
                 </p>
                 <button class="btn btn-white">Inscrivez-vous</button>
             </div>
@@ -400,23 +483,23 @@
                 <ul>
                     <li>
                         <a href="">
-                        Montres
-                    </a>
+                            Montres
+                        </a>
                     </li>
                     <li>
                         <a href="">
-                        Automobiles
-                    </a>
+                            Automobiles
+                        </a>
                     </li>
                     <li>
                         <a href="">
-                        Lifestyle
-                    </a>
+                            Lifestyle
+                        </a>
                     </li>
                     <li>
                         <a href="">
-                        Sport
-                    </a>
+                            Sport
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -425,26 +508,26 @@
                 <ul>
                     <li>
                         <a href="">
-                        Nos plumes
-                    </a>
+                            Nos plumes
+                        </a>
                     </li>
                     <li>
                         <a href="">
-                        Contact
-                    </a>
+                            Contact
+                        </a>
                     </li>
                     <li>
                         <a href="">
-                        Annonceurs
-                    </a>
+                            Annonceurs
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="footer-col nws-col">
                 <p class="title-footer">Rejoignez la newsletter</p>
                 <button class="btn">
-                Rester au courant
-            </button>
+                    Rester au courant
+                </button>
             </div>
             <div class="footer-col social-col">
                 <p class="title-footer">Suivez-nous</p>
@@ -482,8 +565,8 @@
     </footer>
 </body>
 <script>
-    $(document).ready(function() {
-        if ($(window).width() <= 580) {
+    $(document).ready(function () {
+        if ($(window).width() <= 768) {
             $('.related-posts--wrapper').slick({
                 infinite: true,
                 slidesToShow: 1,
